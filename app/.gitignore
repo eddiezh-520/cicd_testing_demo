@@ -10,5 +10,5 @@
 .gradle/wrapper/
 *.gradle
 gradle.properties
-
+.gradle
 .idea

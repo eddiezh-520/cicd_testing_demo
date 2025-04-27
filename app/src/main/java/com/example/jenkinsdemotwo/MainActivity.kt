@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             JenkinsDemoTwoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android,Eddie",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

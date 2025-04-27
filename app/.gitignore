@@ -1,1 +1,14 @@
 /build
+**/.gradle/
+
+# 或仅忽略根目录的 .gradle
+/.gradle
+
+# 补充 Gradle 相关忽略项
+.gradle/caches/
+.gradle/daemon/
+.gradle/wrapper/
+*.gradle
+gradle.properties
+
+.idea

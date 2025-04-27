@@ -11,4 +11,9 @@
 *.gradle
 gradle.properties
 .gradle
+
+# 补充忽略 Gradle 动态生成的子目录（如 8.6/）
+.gradle/*/      # 匹配任意版本号目录（如 8.6、7.5 等）
+.gradle/**/*    # 递归忽略所有子目录和文件（推荐）
+
 .idea
